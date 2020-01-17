@@ -52,7 +52,7 @@ directory structure
 / --> root. Everything is under root.
 . --> current directory
 .. --> one folder above
-~ --> home folder
+~ --> home folder (e.g. /home/keeru)
 
 
 -------------------
@@ -63,3 +63,61 @@ git add
 git commit -m "any message"
 git remote add origin "https://github.com/kit.../steps.git"
 git push -u origin master
+
+
+
+
+
+-------------------
+Day 2
+-------------------
+
+Linux
+To exit a command, use ctrl+c (ctrl+D or ctrl+Z in some cases)
+
+Python interpretter
+To exit from it, use exit()
+
+if you are in this folder /home/keeru/development/first_steps,
+. --> first_steps
+.. --> development
+
+more linux commands
+---------------------------------------------------------
+touch - for creating a file; or to change its timestamp
+vi - for editing a file
+date - print current date and time
+whoami - what user is currently logged in
+history - shows command history
+man - shows manual pages for a particular command if it exists
+tail, head, shuf - to show only parts of a file
+wc - word count (wc -l -- line count)
+
+> -- Used for creating a new file and writing output to that file. eg. history>my_command_history.txt
+>> -- writes to the end of a file if it exists, otherwise create the file and write the output to it.
+
+" -- double quote
+' - single quote
+` - back tick
+
+
+Linux and Python are case-sensitive.
+
+also most of these commands take multiple arguments
+
+shell/terminal/command-line/cli/command-prompt --> various terms for command line interface
+
+
+duplicate                               cp hi_there dupe
+cut paste into another folder           mv ./dupe ../dupe_folder/
+delete hi_there from current folder     rm ./hi_there
+
+mv -- This is used for both cut-paste & rename.
+rm -- this is not for renaming. This means remove / delete
+
+
+
+
+
+
+
