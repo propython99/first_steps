@@ -1,0 +1,65 @@
+.... -2, -1, 0, 1, 2, 3 ... Integers
+0, 1, 2, 3 Whole Numbers
+Real Numbers 4.2 8.3201 5 -5.23 -0.238492937191918
+in computer science we call real numbers as floating point numbers
+
+4*1 + 2 = 6
+
+10^2
+10**2
+
+(10*2)/2
+
+PEDMAS
+P - parantheses (singular paranthesis)
+E - Exponents ( x**y )
+D - Divison (9/2)
+M - Multiplication
+A - Add
+S - Subtraction
+
+5+0*4//2+9
+D - 5+0*2+9
+M - 5+0+9
+A - 5+9
+    14
+
+6*2
+6, 2 are called operands
+* is called operator
+
+5^2 
+
+Arithmetic operators
+
+-------------------
+Linux
+-------------------
+
+commands
+mkdir - create new folder
+rmdir - removes a folder
+pwd - present working directory - shows where you are currently
+ls - list the contents of the folder
+rm - removes the files
+cd - change directory
+cp - copies source to destination
+mv - move (same as cut in Windows) -- also acts as rename
+which - shows the source for the program
+cat - shows contents of a file on the terminal
+
+directory structure
+/ --> root. Everything is under root.
+. --> current directory
+.. --> one folder above
+~ --> home folder
+
+
+-------------------
+Git Commands
+-------------------
+git status
+git add
+git commit -m "any message"
+git remote add origin "https://github.com/kit.../steps.git"
+git push -u origin master
